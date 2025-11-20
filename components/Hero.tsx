@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from './ui/Button';
 import { Star, Play, ArrowRight } from 'lucide-react';
@@ -59,7 +58,7 @@ export const Hero: React.FC = () => {
              <div className="relative z-10 w-[85%] lg:w-[75%] h-full flex items-end justify-center lg:mr-16">
                 <div className="relative w-full h-[95%] rounded-t-[200px] overflow-hidden bg-stone-100">
                   <img 
-                    src="https://storage.googleapis.com/aistudio-ux-assets/user-generated/00000000-0000-0000-0000-20250225043830.jpeg" 
+                    src="https://res.cloudinary.com/dzqy2ixl0/image/upload/v1763597791/1_n_a5bcwe.jpg" 
                     alt="Chef Naty" 
                     className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-1000"
                   />
@@ -86,7 +85,7 @@ export const Hero: React.FC = () => {
                     <path id="circle" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" />
                   </defs>
                   <text fontSize="11.5" fill="#44403c" fontWeight="bold" letterSpacing="1.2">
-                    <textPath xlinkHref="#circle">
+                    <textPath href="#circle">
                       AWARD WINNING CHEF • GLOBALLY RECOGNIZED •
                     </textPath>
                   </text>
@@ -123,7 +122,7 @@ export const Hero: React.FC = () => {
         </div>
 
         {/* Floating Stats Badge (4.9/5) from screenshot */}
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:translate-x-0 lg:left-[45%] lg:top-[60%] bg-white py-3 px-6 rounded-full shadow-lg z-20 flex items-center gap-2 animate-bounce-slow hidden lg:flex">
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:translate-x-0 lg:left-[45%] lg:top-[60%] bg-white py-3 px-6 rounded-full shadow-lg z-20 flex items-center gap-2 animate-pulse hidden lg:flex">
            <span className="font-bold text-stone-900 text-xl">4.9/5</span>
            <Star className="w-5 h-5 text-orange-400 fill-current" />
         </div>

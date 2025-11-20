@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from './ui/Button';
 import { SectionHeading } from './ui/SectionHeading';
@@ -10,15 +9,15 @@ export const About: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Image Side */}
           <div className="relative">
-            <div className="relative z-10 rounded-tr-[4rem] rounded-bl-[4rem] overflow-hidden shadow-2xl">
+            <div className="relative z-10 rounded-tr-[4rem] rounded-bl-[4rem] overflow-hidden shadow-2xl h-[600px]">
               <img 
-                src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=800&q=80" 
-                alt="Chef Naty Preparing Food" 
+                src="https://res.cloudinary.com/dzqy2ixl0/image/upload/v1763597791/imgi_63_429246363_933036421465985_2575525623229077740_n_kisena.jpg" 
+                alt="Chef Naty Pouring Coffee" 
                 className="w-full h-full object-cover"
               />
             </div>
             {/* Decorative backdrop */}
-            <div className="absolute -top-6 -left-6 w-full h-full border-2 border-gold-500 rounded-tr-[4rem] rounded-bl-[4rem] -z-0"></div>
+            <div className="absolute -top-6 -left-6 w-full h-full border-2 border-gold-500 rounded-tr-[4rem] rounded-bl-[4rem] z-0"></div>
           </div>
 
           {/* Content Side */}
